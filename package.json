@@ -1,0 +1,33 @@
+{
+  "name": "kolakcendolrujak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaledyurino/kolakcendolrujak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaledyurino/kolakcendolrujak/issues"
+  },
+  "homepage": "https://github.com/khaledyurino/kolakcendolrujak#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bearer": "0.0.20",
+    "connect-timeout": "^1.9.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2",
+    "sequelize": "^6.12.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
